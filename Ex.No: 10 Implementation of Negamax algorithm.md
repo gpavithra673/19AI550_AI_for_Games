@@ -26,7 +26,7 @@ Write a negamax algorithm to find the optimal value of Player from the graph.
 
 ### PROGRAM:
 
-python
+```
 import math
 
 def negamax(curDepth, nodeIndex, scores, targetDepth):
@@ -46,14 +46,13 @@ treeDepth = math.log(len(scores), 2)  # Calculate depth of node, log(8, base 2) 
 print("The optimal value is: ", end="")
 print(negamax(0, 0, scores, int(treeDepth)))
 
-
+```
 ### OUTPUT:
 
 ![image](https://github.com/user-attachments/assets/97f10fde-2107-4ad2-9a4d-ab134981c069)
 
 
 ### RESULT:
-
-
-
 Thus the best score of max player was found using negamax algorithm
+
+
