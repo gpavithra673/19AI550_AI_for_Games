@@ -1,0 +1,20 @@
+Ex.No: 6 Implementation of Zombie survival game using A* search
+DATE:
+REGISTER NUMBER :
+AIM:
+To write a python program to simulate the Zomibie Survival game using A* Search
+
+Algorithm:
+Start the program
+Import the necessary modules
+Initiate the pygame engine and window
+Collect the Zombie image and resize it within a display window
+Create a Euclidean distance heuristic function to find the distance from current location to Target position
+Move the Zombie towards the target by A* search
+In main, create the obstacles and move the player by Key movements up, down,left and right
+Update the display every time
+Stop the program
+Program:
+Output:
+Result:
+Thus the simple Zombie survival game was implemented using python.
