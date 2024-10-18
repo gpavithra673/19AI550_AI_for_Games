@@ -26,7 +26,7 @@ Hurt, Exposed, With Ammo -> Defend
 
    
 ## Program:
-
+```
 
 from sklearn import tree
 import pandas as pd
@@ -78,11 +78,11 @@ plt.figure(figsize=(10, 6))
 tree.plot_tree(clf, feature_names=['Health', 'Cover', 'Ammo', 'Exposed'], class_names=['Defend', 'Attack'], filled=True)
 plt.show()
 
-
-Output:
+```
+## Output:
 
 
 ![image](https://github.com/user-attachments/assets/dc19cf35-1fc1-4e2b-8365-0d4b9676b6cf)
 
-Result:
+## Result:
 Thus the optimum value of max player was found using minimax search.
